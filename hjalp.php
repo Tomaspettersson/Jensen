@@ -14,18 +14,63 @@
  <nav class="navbar navbar-inverse">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
-           <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/jensen/Jensen%20Online/index.php">Hem</a>
+           <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/index.php">Hem</a>
         </div>
     </nav>
     
-    
-    <main class="jumbotron">
+     <main class="jumbotron">
         <div class="container">
-            <p>FAQ</p>
+            <h1>FAQ</h1>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
+            <div class="faq-question">
+            "Hur bokar jag ett rum?"
+            </div>
+            <div class="faq-answer">
+            <p class="faq">Rumsbokningen hittar du under avdelningen "kalender".</p>
+            </div>
         </div>
     </main>
+ 
     
-        <?php
+
+    
+    
+<?php
 
 include("includes/footer.php");
     

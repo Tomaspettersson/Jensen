@@ -21,7 +21,7 @@ session_start();
  <nav class="navbar navbar-inverse">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
-           <a id="hjalp" class="navbar-brand" href="#">Hjälp</a>
+           <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/hjalputloggad.php">Hjälp</a>
         </div>
     </nav>
     
