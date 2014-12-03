@@ -35,7 +35,10 @@ $_SESSION['time'] = time();
     </nav>
 
 
-
+<?php
+    
+   if($_SESSION['usertype']==1):
+    ?>
     
   <div class="container">
     
@@ -49,5 +52,46 @@ $_SESSION['time'] = time();
         <button class="btn btn-warning btn-lg">Meddelanden</button>
         <button class="btn btn-primary btn-lg">Studieresultat</button>
         <button class="btn btn-success btn-lg">Enkäter</button>
+            <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/registrera.php">Registrera</a>
         </div>
+        
+        
+     <?php elseif ($_SESSION['usertype']==2): ?>
+         <div class="container">
+    
+    <header class="page-header">
+        <div class="btn-group">
+        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
+        <button class="btn btn-success btn-lg">Min Klass</button>
+        <button class="btn btn-warning btn-lg">Kurser</button>
+        <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
+        <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
+        <button class="btn btn-warning btn-lg">Meddelanden</button>
+        <button class="btn btn-primary btn-lg">Studieresultat</button>
+        <button class="btn btn-success btn-lg">Enkäter</button>
+        
+            
+            <?php else: ?>
+         <div class="container">
+    
+    <header class="page-header">
+        <div class="btn-group">
+        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
+        <button class="btn btn-success btn-lg">Min Klass</button>
+        <button class="btn btn-warning btn-lg">Kurser</button>
+ 
+            
+        <?php endif; ?>
+        
+        
+        
+        
+        
+        
   </header>
+      
+      
+      
+      
+      
+      

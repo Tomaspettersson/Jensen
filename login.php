@@ -62,6 +62,7 @@ if($user){
     //print_r($user);
 	$_SESSION['pnumber'] = $user['pnumber'];
 	$_SESSION['id'] = $user['id'];
+    $_SESSION['usertype'] = $user['usertype'];
 	header("Location: index.php");
     //$url = "welcome.php";
     //echo '<script>window.location = "'.$url.'";</script>';
