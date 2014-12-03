@@ -1,3 +1,22 @@
+
+<?php
+
+$inactiveTime = 600;
+
+if(isset($_SESSION['time'])) 
+{
+  $session_life = time() - $_SESSION['time'];
+    
+  if($session_life > $inactiveTime) 
+    { 
+        header("Location: logout.php"); 
+    }
+}
+
+$_SESSION['time'] = time();
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

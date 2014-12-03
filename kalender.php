@@ -1,6 +1,17 @@
 <?php
 
 
+session_start();
+	if(!isset($_SESSION["pnumber"])){
+		header("Location: login.php");
+	}
+
+?>
+
+
+<?php
+
+
 $pageTitle = "Kalender";
 $section = "kalender";
 include("includes/header.php");

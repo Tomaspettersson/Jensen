@@ -1,6 +1,17 @@
 <?php
 
 
+session_start();
+	if(!isset($_SESSION["pnumber"])){
+		header("Location: login.php");
+	}
+
+?>
+
+
+<?php
+
+
 $pageTitle = "Nyheter";
 $section = "nyheter";
 include("includes/header.php");
