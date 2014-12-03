@@ -1,7 +1,7 @@
 
 <?php
 
-$inactiveTime = 600;
+$inactiveTime = 900;
 
 if(isset($_SESSION['time'])) 
 {

@@ -95,44 +95,37 @@ else{
         
        <main class="jumbotron">
            
-   <!--        
-<form action="login.php" method="POST">
-	<table>
-		<tr>
-			<td>Username: </td>
-			<td><input type="text" name="pnumber" /></td>
-		</tr>
-		<tr>
-			<td>Password: </td>
-			<td><input type="text" name="password" /></td>
-		</tr>
-		<tr>
-			<td><input type="submit" name="submit" value="login" /></td>
-		</tr>
-	</table>
-</form>
-   -->    
-           
-   
-           
+ 
+
            <form role="form" action="login.php" method="POST">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Personal number</label>
-    <input type="text" class="form-control" name="pnumber" placeholder="Ex 199010190202">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" name="password" placeholder="Password">
-  </div>
-  
-  <input type="submit" class="btn btn-default" name="submit" value="Log in" />
-</form>
+           <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-md-offset-4">
+            
+            <div>
+                <img class="profile-img" src="images/loginImg.png"
+                    alt="loginImage">
+                <form class="form-signin">
+                <input type="text" name="pnumber" class="form-control" placeholder="Ex 199010190202" required autofocus>
+                <input type="password" name ="password" class="form-control" placeholder="Password" required>
+                    <br />
+                    <br />
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">
+                    Sign in</button>
+             
+            
+                </form>
+            </div>
            
+        </div>
+    </div>
 </div>
-        
 
-<img class="img-responsive center-block" id="loginbild" src="images/Symbol%20med%20lagerblad.jpg">
 
+
+
+           
+           
    
 </body>
 </html>
