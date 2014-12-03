@@ -89,43 +89,31 @@ else{
 
 ?>      
     
-    
- 
+<div class="container">
+<main class="jumbotron">
+           
+<form role="form" action="login.php" method="POST">
     <div class="container">
-        
-       <main class="jumbotron">
-           
- 
-
-           <form role="form" action="login.php" method="POST">
-           <div class="container">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-md-offset-4">
-            
-            <div>
-                <img class="profile-img" src="images/loginImg.png"
-                    alt="loginImage">
-                <form class="form-signin">
-                <input type="text" name="pnumber" class="form-control" placeholder="Ex 199010190202" required autofocus>
-                <input type="password" name ="password" class="form-control" placeholder="Password" required>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-md-offset-4">
+                <div>
+                    <h3 class="text-center login-title">Välkommen till Jensen Online</h3>
                     <br />
                     <br />
-                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">
-                    Sign in</button>
-             
-            
-                </form>
+                    <img class="profile-img" src="images/loginImg.png" alt="loginImage">
+                    <form class="form-signin">
+                    <input type="text" name="pnumber" class="form-control" placeholder="Ex 199010190202" required autofocus>
+                    <input type="password" name ="password" class="form-control" placeholder="Password" required>
+                    <br />
+                    <br />
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Sign in</button>
+                    </form>
+                </div> 
             </div>
-           
         </div>
     </div>
-</div>
+</form>
+</main>
 
-
-
-
-           
-           
-   
 </body>
 </html>
