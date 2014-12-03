@@ -45,13 +45,13 @@ $_SESSION['time'] = time();
     <header class="page-header">
         <div class="btn-group">
         <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <button class="btn btn-success btn-lg">Min Klass</button>
-        <button class="btn btn-warning btn-lg">Kurser</button>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
         <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
         <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-        <button class="btn btn-warning btn-lg">Meddelanden</button>
-        <button class="btn btn-primary btn-lg">Studieresultat</button>
-        <button class="btn btn-success btn-lg">Enkäter</button>
+        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
             <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/registrera.php">Registrera</a>
         </div>
         
@@ -62,13 +62,13 @@ $_SESSION['time'] = time();
     <header class="page-header">
         <div class="btn-group">
         <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <button class="btn btn-success btn-lg">Min Klass</button>
-        <button class="btn btn-warning btn-lg">Kurser</button>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
         <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
         <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-        <button class="btn btn-warning btn-lg">Meddelanden</button>
-        <button class="btn btn-primary btn-lg">Studieresultat</button>
-        <button class="btn btn-success btn-lg">Enkäter</button>
+        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
         
             
             <?php else: ?>
@@ -77,8 +77,13 @@ $_SESSION['time'] = time();
     <header class="page-header">
         <div class="btn-group">
         <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <button class="btn btn-success btn-lg">Min Klass</button>
-        <button class="btn btn-warning btn-lg">Kurser</button>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
+        <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
+        <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
+        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
  
             
         <?php endif; ?>
