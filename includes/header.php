@@ -29,8 +29,21 @@ $_SESSION['time'] = time();
     <nav class="navbar navbar-inverse">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
+
             <a id="hjalp" class="navbar-brand" href="logout.php">Logga ut</a>
            <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/hjalp.php">Hjälp</a>  
+ 
+  <div class="dropdown">
+      <a id="hjalp" class="navbar-brand dropdown-toggle" id="dropdownMenu1" aria-expanded="true" href="">
+          <?php echo $_SESSION['fname']; ?><span class="caret"></span>
+      </a><ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+    
+    </ul>
+</div>
+
+
         </div>
     </nav>
 

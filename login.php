@@ -63,6 +63,7 @@ if($user){
 	$_SESSION['pnumber'] = $user['pnumber'];
 	$_SESSION['id'] = $user['id'];
     $_SESSION['usertype'] = $user['usertype'];
+    $_SESSION['fname'] = $user['fname'];
 	header("Location: index.php");
     //$url = "welcome.php";
     //echo '<script>window.location = "'.$url.'";</script>';
