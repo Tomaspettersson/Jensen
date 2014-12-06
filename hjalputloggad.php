@@ -23,51 +23,39 @@
     </header>
     
     
-    
-    <main class="jumbotron">
-        <div class="container">
-            <h1>FAQ</h1>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-            <div class="faq-question">
-            "Jag kan inte logga in på min sida?"
-            </div>
-            <div class="faq-answer">
-            <p class="faq">Om du har problem att logga in på grund utav att dina          uppgifter inte stämmer, var vänligt kontakta din systemadministratör</p>
-            </div>
-        </div>
+    <div class="container">
+        <main class="jumbotron">
+        <h1 class="FAQ">FAQ</h1><br />
+ 
+        <div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Jag kan inte logga in på min sida?</h4>
+    <p class="list-group-item-text">Kontakta din närmaste administratör.</p>
+  </a>
+            
+  <div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Jag kan inte logga in på min sida?</h4>
+    <p class="list-group-item-text">Kontakta din närmaste administratör.</p>
+  </a>
+   <div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Jag kan inte logga in på min sida?</h4>
+    <p class="list-group-item-text">Kontakta din närmaste administratör.</p>
+  </a>
+  <div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">Jag kan inte logga in på min sida?</h4>
+    <p class="list-group-item-text">Kontakta din närmaste administratör.</p>
+  </a>
+            
+</div>
+</div>
+</div>  
+</div>
+        
+        
+    <script src="app.js"></script>
     </main>
+    </div> 
+    

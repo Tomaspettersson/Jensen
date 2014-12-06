@@ -24,9 +24,12 @@ $_SESSION['time'] = time();
   <title><?php echo $pageTitle ?></title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+</head>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-custom">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
 
@@ -58,7 +61,7 @@ $_SESSION['time'] = time();
     <header class="page-header">
         <div class="btn-group">
         <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php" >Min Klass</a>
         <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
         <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
         <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
