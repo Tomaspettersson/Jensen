@@ -126,3 +126,11 @@ body {
    background:#f2f6f9 !important;
     font-family: 'Open Sans', sans-serif;
 }
+
+.page-header {
+    text-align: center;
+}
+
+#valkommen {
+    text-align: center;
+}
