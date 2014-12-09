@@ -101,7 +101,7 @@ $_SESSION['time'] = time();
         
      <?php elseif ($_SESSION['usertype']==2): ?>
          
-    
+    <div class="container">
     <header class="page-header">
         <div class="btn-group">
         <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
@@ -119,7 +119,7 @@ $_SESSION['time'] = time();
             
             <?php else: ?>
          
-    
+    <div class="container">
     <header class="page-header">
         <div class="btn-group">
         <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
