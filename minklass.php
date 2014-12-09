@@ -21,29 +21,80 @@ include("includes/header.php");
     <main class="jumbotron">
 
 
-<form action="minklass.php" method="post" enctype="multipart/form-data">
-    Välj schema för uppladdning (När schemat är uppladdat kan eleverna själva se schemat):
-    <input type="file" name="fileToUpload" id="fileToUpload">
-    <input type="submit" value="Ladda upp schema" name="submit">
-</form><br /><br />
+
         
-<?php
-$target_dir = "uploads/";
-$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-$uploadOk = 1;
-$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
-// Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
-    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-    if($check !== false) {
-        echo "File is an image - " . $check["mime"] . ".";
-        $uploadOk = 1;
-    } else {
-        echo "File is not an image.";
-        $uploadOk = 0;
-    }
+  <?php #uploadFileForm.php
+
+	//checking if the form has been submitted 
+	if( isset($_POST['upload']) ){
+		//display $_FILES content
+		echo "<pre>";
+		
+		echo "</pre>";
+	
+		  if( is_uploaded_file($_FILES['upfile']['tmp_name']) ){
+                //storing file data into variables
+		
+                $fileName = $_FILES['upfile']['name'];           		        //this is the actual name of the file   		           
+                $fileTempName = $_FILES['upfile']['tmp_name'];					//this is the temporary name of the file     
+				$fileSize =  $_FILES['upfile']['size']; 						//this is the filesize
+                $path = "uploads/";												//this is the path where you want to save the actual file 
+                $newPathAndName = $path . $fileName;		//uploads/ruler.jpg					//this is the actual path and actual name of the file
+				
+				//you can use move_uploaded_file() to move and rename the temp file
+                if( move_uploaded_file($fileTempName, $newPathAndName)  ){
+                    echo "The file has been successfully uploaded<br /><br />";
+				
+					
+                } else {
+                    echo "Could not upload the file";
+                }//end if move_uploaded_file
+				
+            }//end if is_uploaded_file
+    }//end if isset upload
+
+?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>Title of the document</title>
+  </head>
+  <body>
+	<h2>Ladda upp schema</h2>
+	
+	
+    <form action="minklass.php" method="POST" enctype="multipart/form-data">
+        file: <input type="file" name="upfile" value=""/><br />
+        <input type="submit" name="upload" value="upload"/>
+     </form>      
+        
+    <table class="table table-hover">
+      <tr>
+        <th>Fil:</th>
+          <th>Öppna:</th>
+        </tr>
+        <?php
+
+$dir = 'uploads/';
+$files = array_diff(scandir($dir), array('..', '.'));
+
+foreach($files as $f){
+    echo "<tr>";
+    echo "<td>";
+    echo $f;
+    echo "</td>";
+    echo "<td>";
+    echo "<a href=" . $dir . $f . "><input type='button' name='openThis' value='Öppna' class='btn btn-primary btn-xs'></button></a>";
+    echo "</td>";
+      echo "</tr>";  
 }
 ?>
+      </table>    
+        
+  
+        
+
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 <div class="container">
