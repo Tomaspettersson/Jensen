@@ -133,7 +133,7 @@ $_SESSION['time'] = time();
         </div>
         </header>
     
-    </div>
+   
  
         <?php endif; ?>
         
