@@ -32,7 +32,7 @@ $_SESSION['time'] = time();
     
     
     
- <nav class="navbar navbar-custom" role="navigation">
+ <nav class="navbar navbar-default" role="navigation">
      <div class="container">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -43,7 +43,7 @@ $_SESSION['time'] = time();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Jensen Online</a>
+      <a class="navbar-brand">Jensen Online</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,7 +56,7 @@ $_SESSION['time'] = time();
       </form>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="dropdown active">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo $_SESSION['fname']; ?> <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#">Profil</a></li>
@@ -68,7 +68,7 @@ $_SESSION['time'] = time();
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-          <li class="active pull-right"><a href="hjalp.php">Hjälp</a></li>
+          <li class="pull-right"><a href="hjalp.php">Hjälp</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -84,16 +84,16 @@ $_SESSION['time'] = time();
   <div class="container">
     
     <header class="page-header">
-        <div class="btn-group">
-        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php" >Min Klass</a>
-        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-        <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
-        <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
-            <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/registrera.php">Registrera</a>
+        <div class="btn-group btn-group-justified">
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php" >Min Klass</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
+            <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/registrera.php">Registrera</a>
         </div>
         </header>
     
@@ -103,15 +103,15 @@ $_SESSION['time'] = time();
          
     <div class="container">
     <header class="page-header">
-        <div class="btn-group">
-        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
-        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-        <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
-        <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
+        <div class="btn-group btn-group-justified">
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
         </div>
         </header>
      
@@ -121,15 +121,15 @@ $_SESSION['time'] = time();
          
     <div class="container">
     <header class="page-header">
-        <div class="btn-group">
-        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/">Startsida</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
-        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-        <a class="btn btn-danger btn-lg" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
-        <a class="btn btn-info btn-lg" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-        <a class="btn btn-warning btn-lg" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-        <a class="btn btn-primary btn-lg" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-        <a class="btn btn-success btn-lg" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
+        <div class="btn-group btn-group-justified">
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
         </div>
         </header>
     

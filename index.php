@@ -18,13 +18,14 @@ include("includes/header.php");
     
 ?>
     <h1 id="valkommen">Välkommen till Jensen Online</h1>
+<br />
     <main class="jumbotron">
         
         
         <h3>LÅNGSIKTIG ÄGARE MED FOKUS PÅ KVALITET</h3>
         <p>Snabbaste vägen till jobb 
 Vår senaste uppföljning i januari 2014 visade att 90 % av de som genomför våra Yh-utbildningar får jobb i rätt bransch. Det finns många orsaker till detta bland annat: hög kvalitet på utbildningen, samarbete med branschens ledande företag, lärare från näringslivet och gediget analysarbete kring framtidens yrkesroller.</p>
-        <p><a class="btn btn-primary btn-lg" href="nyheter.php" role="button">Läs mer</a></p>
+        <p><a class="btn btn-primary" href="nyheter.php" role="button">Läs mer</a></p>
         
         
 
@@ -38,7 +39,11 @@ Vår senaste uppföljning i januari 2014 visade att 90 % av de som genomför vå
           
         <h3>JENSEN etableringslots</h3>
         <p>Nu erbjuder vi etableringslots för dig som är nyanländ i Sverige och på jakt efter ett jobb eller utbildning. Från 1 december erbjuder vi även JENSEN stöd och matchning.</p>
-        <p><a href="http://www.jenseneducation.se/JENSEN-karriar--utveckling/Vara-tjanster/Etableringslots/" class="btn btn-primary" role="button">Läs mer</a>
+        <p><a href="http://www.jenseneducation.se/JENSEN-karriar--utveckling/Vara-tjanster/Etableringslots/" class="btn btn-primary" role="button">Läs mer</a>  
+            
+            
+            
+            
       </div>
     </div>
   </div>

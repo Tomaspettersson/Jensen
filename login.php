@@ -108,7 +108,7 @@ else{
                     <input type="password" name ="password" class="form-control" placeholder="Password" required>
                     <br />
                     <br />
-                    <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Sign in</button>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Logga in</button>
                     </form>
                 </div> 
             </div>
