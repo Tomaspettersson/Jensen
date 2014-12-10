@@ -29,7 +29,7 @@ include("includes/header.php");
         <p>
      <form class="form-inline" role="form">
        <div class="form-group">
-           <div class="input-group">
+           <div class="input-group-lg">
                <select class="form-control" id="room">
                     <option>Lilla rummet</option>
                    <option>Mellan rummet</option>
@@ -37,8 +37,8 @@ include("includes/header.php");
                </select>
            </div>
        </div>
-          <input id="date" type="date">
-          <input id="date2" type="date">
+          <input class="input-lg" id="date" type="date">
+          <input class="input-lg" id="date2" type="date">
           <button id="addbutton" class="btn btn-primary" type="button">Boka</button>
          </form>
           

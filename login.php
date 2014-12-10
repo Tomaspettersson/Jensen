@@ -17,7 +17,7 @@ session_start();
 </head>
 
 <body>
-    
+
  <nav class="navbar navbar-inverse">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
@@ -25,10 +25,7 @@ session_start();
         </div>
     </nav>
     
-    
-    <header class="page-header">
-    </header>
-    
+
     <?php
 
 if(isset($_POST["submit"])){
@@ -102,7 +99,7 @@ else{
                     <h3 class="text-center login-title">Välkommen till Jensen Online</h3>
                     <br />
                     <br />
-                    <img class="profile-img" src="images/loginImg.png" alt="loginImage">
+                    <img class="profile-img" src="images/Symbol%20med%20lagerblad.jpg" alt="loginImage">
                     <form class="form-signin">
                     <input type="text" name="pnumber" class="form-control" placeholder="Ex 199010190202" required autofocus>
                     <input type="password" name ="password" class="form-control" placeholder="Password" required>
