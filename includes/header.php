@@ -27,6 +27,7 @@ $_SESSION['time'] = time();
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
+    <script src="js/modernizr.custom.js"></script>
 </head>
 
     
@@ -122,14 +123,19 @@ $_SESSION['time'] = time();
     <div class="container">
     <header class="page-header">
         <div class="btn-group btn-group-justified">
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
+        <section class="color-4">
+				<nav class="cl-effect-2">
+					<a href="#"><span data-hover="Ratatouille">Ratatouille</span></a>
+					<a href="#"><span data-hover="Lassitude">Lassitude</span></a>
+					<a href="#"><span data-hover="Murmurous">Murmurous</span></a>
+					<a href="#"><span data-hover="Palimpsest">Palimpsest</span></a>
+					<a href="#"><span data-hover="Assemblage">Assemblage</span></a>
+                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
+                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
+                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
+                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
+				</nav>
+			</section>
         </div>
         </header>
     
