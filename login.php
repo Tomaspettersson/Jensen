@@ -16,9 +16,9 @@ session_start();
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
-<body>
+<body class="home">
 
- <nav class="navbar navbar-inverse">
+ <nav class="navbar navbar-inverse navbarlogin">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
            <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/hjalputloggad.php">Hjälp</a>
@@ -88,13 +88,13 @@ else{
 
 ?>      
     
-<div class="container">
-<main class="jumbotron">
+<div class="container logincontainer">
+<main class="jumbotron logincont">
            
 <form role="form" action="login.php" method="POST">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 col-md-4 col-md-offset-4">
+            <div class="col-sm-4 col-md-4 col-md-offset-4">
                 <div>
                     <h3 class="text-center login-title">Välkommen till Jensen Online</h3>
                     <br />
@@ -113,6 +113,6 @@ else{
     </div>
 </form>
 </main>
-
+    </div>
 </body>
 </html>

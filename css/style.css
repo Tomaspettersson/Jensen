@@ -123,8 +123,26 @@
 }
 
 body {
-   background:#f2f6f9 !important;
+ 
     font-family: 'Open Sans', sans-serif;
+}
+
+
+body.home { 
+ background: url('..//images/minimalism_in_architecture-wallpaper-1920x1080.jpg') no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.logincont {
+    background: #fff;
+    opacity:0.8;
+}
+
+.navbarlogin {
+    opacity:0.8;
 }
 
 .page-header {
@@ -304,3 +322,5 @@ nav a:focus {
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+
+
