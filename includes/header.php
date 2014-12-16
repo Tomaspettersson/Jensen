@@ -81,7 +81,6 @@ $_SESSION['time'] = time();
     
    if($_SESSION['usertype']==1):
     ?>
-    
   <div class="container">
     
     <header class="page-header">
