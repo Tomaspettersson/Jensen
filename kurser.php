@@ -40,52 +40,27 @@ include("includes/header.php");
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Grundläggande webbapplikationsutveckling 40</strong>
+Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Programmeringskunskap 40</strong>
+JavaScript, PHP och MySQL.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Webblogik 30</strong>
+Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Avancerad webbapplikationsutveckling 60</strong>
+Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Examensarbete 30</strong>
+Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                              <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>LIA 100</strong>
                             </div>
                         </div>
                     </div>
@@ -103,52 +78,29 @@ include("includes/header.php");
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Grundläggande webbapplikationsutveckling 40</strong>
+Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Programmeringskunskap 40</strong>
+JavaScript, PHP och MySQL.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Webblogik 30</strong>
+Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
+                               <br />
                             </div>
+                            
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Avancerad webbapplikationsutveckling 60</strong>
+Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Examensarbete 30</strong>
+Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                              <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>LIA 100</strong>
                             </div>
                         </div>
                     </div>
@@ -169,52 +121,29 @@ include("includes/header.php");
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Grundläggande webbapplikationsutveckling 40</strong>
+Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Programmeringskunskap 40</strong>
+JavaScript, PHP och MySQL.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Webblogik 30</strong>
+Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
+                               <br />
                             </div>
+                            
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Avancerad webbapplikationsutveckling 60</strong>
+Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>Examensarbete 30</strong>
+Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                              <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
-                            </div>
-                           <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                <strong>LIA 100</strong>
                             </div>
                         </div>
                     </div>

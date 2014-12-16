@@ -66,9 +66,9 @@ include("includes/header.php");
 	
     <form action="minklass.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="upfile" value=""/><br />
-        <input type="submit" name="upload" value="Ladda upp"/>
+        <input class="btn btn-primary" type="submit" name="upload" value="Ladda upp"/>
      </form>      
-        
+        <br />
     <table class="table table-hover">
       <tr>
         <th>Fil:</th>
@@ -115,52 +115,52 @@ foreach($files as $f){
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                               <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                         </div>
                     </div>
@@ -178,52 +178,52 @@ foreach($files as $f){
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                               <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                         </div>
                     </div>
@@ -244,52 +244,52 @@ foreach($files as $f){
                     <div class="container">
                         <div class="fluid-row">
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                               <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                             <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                            <div class="col-md-6">
-                                Namn: Tomas Pettersson Personnr: 950101-1010
+                                 <strong>Namn:</strong> Tomas Pettersson Personnr: 950101-1010
                             </div>
                         </div>
                     </div>
