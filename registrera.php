@@ -28,84 +28,107 @@ include("includes/header.php");
 	</style>
 
 <body>
-
-
 <?php
-	$user = $email = $pass = $rePass = $usertype = "" ;
-	$userErr = $emailErr = $passErr = $rePassErr = $usertypeErr = "";
-	if(isset($_POST["submit"])){							
-	
-		$user	= trim($_POST["username"]);		
-		$email 	= trim($_POST["email"]);				
-		$pass	= trim($_POST["password"]);						
-		$rePass = trim($_POST["re_password"]);	
-        $usertype = trim($_POST["usertype"]);
 
-				
-		if (!preg_match("/^[A-Za-z0-9]*$/",$user)) {
-			$userErr = "Only letters and numbers are allowed"; 
-		}		
-		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-			$emailErr = "Invalid email format"; 
-		}
-		
-		if (empty($user)) {
-			$userErr = "Username is required";
-		}
-	    if (empty($email)) {
-			$emailErr = "Email is required";
-	    }
-	    if (empty($pass)) {
-			$passErr = "Password is required";
-	    }
-	    if (empty($rePass)) {
-			$rePassErr = "re-enter password is required";
-		}
-		if ($rePass != $pass) {
-			$rePassErr = "The re-entered password don't match";
-		}
-          if (empty($usertype)) {
-			$usertypeErr = "Usertype is required";
-          }
-		
-		
-		if(empty($userErr) && empty($emailErr) && empty($passErr)&& empty($rePassErr) && empty($usertypeErr)){
-			echo "It is validated. You are ready for some DB statements now"; 
-		}
-	}
+if(isset($_POST["submit"])){
+	$pnumber = $_POST['pnumber'];
+	$password = $_POST['password'];
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $usertype = $_POST['usertype'];
+    
+
+
+
+try{
+
+$hashedPass = password_hash($password, PASSWORD_BCRYPT);
+
+require_once("db_connect.php");
+
+
+$query = "INSERT INTO users (pnumber, hashed_password, fname, lname, usertype)";
+$query .= "VALUES (:pnumber, :password, :fname, :lname, :usertype) ";
+
+
+
+$ps = $db->prepare($query); //prepared statements
+
+$result = $ps->execute(
+	array(
+	'pnumber'=>$pnumber, 
+	'password'=>$hashedPass,
+    'fname'=>$fname,
+    'lname'=>$lname,
+    'usertype'=>$usertype
+)); //Erhåller värdet true eller false. arrayen i execute är tilldelade värden för placeholders i SQL -> :username AND :password
+
+
+if($result){
+	header("Location: registrera.php");
+} else{
+	echo "Signup failed!";
+}
+
+
+} catch(Exception $exception){
+
+	echo "Query failed, see error message below: <br /><br />";
+	echo $exception. "<br /><br />";
+}
+
+
+$user = $ps->fetch(PDO::FETCH_ASSOC);// associative array
+//echo $user['id'];
+
+}
+else{
+
+}
+
+
+
+
 ?>
 
-	<h1>Skapa användare</h1>
-	Fält med <span class="error">*</span> är obligatoriska.<br /><br /><br />
 
-	<form action="registrera.php" method="POST">
-		<table>
+
+	<h1>Skapa användare</h1>
+	
+    
+    <form action="registrera.php" method="POST">
+	<table>
 		<tr>
-			<td>Username:</td> 
-			<td><input type="text" name="username" value="<?php echo $user; ?>" /><span class="error">* <?php echo $userErr; ?></span></td>
+			<td>Username: </td>
+			<td><input type="text" name="pnumber" /></td>
 		</tr>
 		<tr>
-			<td>E-mail:</td> 
-			<td><input type="text" name="email" value="<?php echo $email; ?>"/><span class="error">* <?php echo $emailErr; ?></span></td>
-		</tr>
-		<tr>
-			<td>Password:</td>
-			<td><input type="password" name="password" /><span class="error">* <?php echo $passErr; ?></span></td>
-		</tr>
-		<tr>
-			<td>Re-password:</td>
-			<td><input type="password" name="re_password" /><span class="error">* <?php echo $rePassErr; ?></span></td>
+			<td>Password: </td>
+			<td><input type="text" name="password" /></td>
 		</tr>
         <tr>
-			<td>Usertype:</td>
-			<td><input type="text" name="usertype" /><span class="error">* <?php echo $usertypeErr; ?></span></td>
+			<td>First name: </td>
+			<td><input type="text" name="fname" /></td>
+		</tr>
+        <tr>
+			<td>Last name: </td>
+			<td><input type="text" name="lname" /></td>
+		</tr>
+        <tr>
+			<td>Usertype: </td>
+			<td><input type="text" name="usertype" /></td>
 		</tr>
 		<tr>
-			<td><input type="submit" value="Registrera" name="submit" /></td>
-			<td></td>
+			<td><input type="submit" name="submit" value="Register!" /></td>
+
 		</tr>
-		</table>
-	</form>
+	</table>
+
+    
+    
+    
+    
+    
 
 	</body>
 

@@ -42,7 +42,6 @@ require_once("db_connect.php");
 $query = "SELECT * ";
 $query .= "FROM users ";
 $query .= "WHERE pnumber = :pnumber ";
-$query .= "AND password = :password ";
 
 
 $ps = $db->prepare($query);
@@ -50,12 +49,11 @@ $ps = $db->prepare($query);
 $result = $ps->execute(
 	array(
 	'pnumber'=>$pnumber, 
-	'password'=>$password
 ));
 
 $user = $ps->fetch(PDO::FETCH_ASSOC);
     
-if($user){
+if(password_verify($password, $user['hashed_password'])){
     //print_r($user);
 	$_SESSION['pnumber'] = $user['pnumber'];
 	$_SESSION['id'] = $user['id'];
