@@ -315,3 +315,7 @@ h1 {
 .row marketing { 
     box-shadow: 0 0 1em 1em #ccc;
 }
+
+.copyFooter {
+    text-align: center;
+}

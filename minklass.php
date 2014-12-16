@@ -65,8 +65,8 @@ include("includes/header.php");
 	
 	
     <form action="minklass.php" method="POST" enctype="multipart/form-data">
-        file: <input type="file" name="upfile" value=""/><br />
-        <input type="submit" name="upload" value="upload"/>
+        <input type="file" name="upfile" value=""/><br />
+        <input type="submit" name="upload" value="Ladda upp"/>
      </form>      
         
     <table class="table table-hover">

@@ -23,9 +23,9 @@ include("includes/header.php");
 
 <main class="jumbotron">
     <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+        <h1>LÅNGSIKTIG ÄGARE MED FOKUS PÅ KVALITET</h1>
+        <p class="lead">Under de senaste 18 åren har jag lagt ner min själ i att uppnå mitt mål - att skapa Sveriges bästa utbildningsföretag. Få saker slår känslan man får när man uppnår sina mål. Just den vinnande känslan vill jag även att du ska känna, både under din tid på JENSEN och i framtiden.</p>
+        <p><a class="btn btn-lg btn-success" href="http://127.0.0.1/git/Jensen/nyheter.php" role="button">Läs mer</a></p>
       </div>
 
       <div class="row marketing startSubs">

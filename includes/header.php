@@ -44,7 +44,7 @@ $_SESSION['time'] = time();
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand">Jensen Online</a>
+      <a class="navbar-brand" href="http://127.0.0.1/git/Jensen">Jensen Online</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

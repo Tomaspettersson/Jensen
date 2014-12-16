@@ -19,7 +19,7 @@
     </nav>
 
     
-    <div class="container navbarlogin">
+    <div class="container">
         <main class="jumbotron">
         <h3 class="FAQ">FAQ</h3><br />
  
