@@ -23,7 +23,7 @@ include("includes/header.php");
             </select>
             <input class="input" id="date" type="datetime-local">
             <input class="input" id="date2" type="datetime-local">
-            <button id="addbutton" class="btn btn-primary" type="button">Boka</button>
+            <button id="addbutton" class="btn btn-success" type="button">Boka</button>
         </div>
     </form>
 

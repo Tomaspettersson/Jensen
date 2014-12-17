@@ -66,7 +66,7 @@ include("includes/header.php");
 	
     <form action="minklass.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="upfile" value=""/><br />
-        <input class="btn btn-primary" type="submit" name="upload" value="Ladda upp"/>
+        <input class="btn btn-success" type="submit" name="upload" value="Ladda upp"/>
      </form>      
         <br />
     <table class="table table-hover">
@@ -85,7 +85,7 @@ foreach($files as $f){
     echo $f;
     echo "</td>";
     echo "<td>";
-    echo "<a href=" . $dir . $f . "><input type='button' name='openThis' value='Öppna' class='btn btn-primary btn-xs'></button></a>";
+    echo "<a href=" . $dir . $f . "><input type='button' name='openThis' value='Öppna' class='btn btn-success btn-xs'></button></a>";
     echo "</td>";
       echo "</tr>";  
 }

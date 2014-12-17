@@ -125,7 +125,7 @@ else{
                 </td>
             </tr>
 		<tr>
-			<td><input type="submit" name="submit" value="Register!" /></td>
+			<td><input type="submit" name="submit" class="btn-success" value="Register" /></td>
 
 		</tr>
 	</table>
