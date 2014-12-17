@@ -163,7 +163,10 @@ nav a:focus {
     font-size: 123%;
     background-color: #d35400;
     border-color: #d35400;
-    color: #fff;
-    
+    color: #fff;  
+}
+
+.copyFooter {
+   text-align: center;
 }
 
