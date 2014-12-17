@@ -104,7 +104,7 @@ else{
 		</tr>
 		<tr>
 			<td>Password: </td>
-			<td><input type="text" name="password" /></td>
+			<td><input type="password" name="password" /></td>
 		</tr>
         <tr>
 			<td>First name: </td>
@@ -114,10 +114,16 @@ else{
 			<td>Last name: </td>
 			<td><input type="text" name="lname" /></td>
 		</tr>
-        <tr>
-			<td>Usertype: </td>
-			<td><input type="text" name="usertype" /></td>
-		</tr>
+       <tr><td>Usertype: </td>
+            <td>
+        <select name="usertype" >
+				  <option value="">Choose usertype</option>
+				  <option value="1">Admin</option>
+				  <option value="2">Teacher</option>
+				  <option value="3">Student</option>
+				</select>
+                </td>
+            </tr>
 		<tr>
 			<td><input type="submit" name="submit" value="Register!" /></td>
 

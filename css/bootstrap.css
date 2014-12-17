@@ -2884,7 +2884,7 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #d35400;
   border-color: #d35400;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -4216,7 +4216,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #fff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
