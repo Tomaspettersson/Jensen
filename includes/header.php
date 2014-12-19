@@ -119,22 +119,17 @@ $_SESSION['time'] = time();
             
             <?php else: ?>
          
-    <div class="container">
+     <div class="container">
     <header class="page-header">
         <div class="btn-group btn-group-justified">
-        <section class="color-4">
-				<nav class="cl-effect-2">
-					<a href="#"><span data-hover="Ratatouille">Ratatouille</span></a>
-					<a href="#"><span data-hover="Lassitude">Lassitude</span></a>
-					<a href="#"><span data-hover="Murmurous">Murmurous</span></a>
-					<a href="#"><span data-hover="Palimpsest">Palimpsest</span></a>
-					<a href="#"><span data-hover="Assemblage">Assemblage</span></a>
-                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
-                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
-                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
-                    <a href="#"><span data-hover="Assemblage">Assemblage</span></a>
-				</nav>
-			</section>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
+        <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
         </div>
         </header>
     

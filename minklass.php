@@ -61,19 +61,23 @@ include("includes/header.php");
     <title>Title of the document</title>
   </head>
   <body>
+      <?php if($_SESSION['usertype']==1 || $_SESSION['usertype']==2): ?>
 	<h2>Ladda upp schema</h2>
 	
 	
     <form action="minklass.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="upfile" value=""/><br />
         <input class="btn btn-success" type="submit" name="upload" value="Ladda upp"/>
-     </form>      
+     </form>
+      <?php endif; ?> 
         <br />
     <table class="table table-hover">
       <tr>
         <th>Fil:</th>
           <th>Öppna:</th>
         </tr>
+        
+         
         <?php
 
 $dir = 'uploads/';
@@ -92,7 +96,7 @@ foreach($files as $f){
 ?>
       </table>    
         
-  
+
         
 
 
