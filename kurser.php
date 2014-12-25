@@ -19,10 +19,70 @@ include("includes/header.php");
 ?>
          
  <main class="jumbotron">
+     <div class="container">
+<div class="stepwizard">
+    <div class="stepwizard-row setup-panel">
+        <div class="stepwizard-step">
+            <a href="#step-1" type="button" class="btn btn-primary btn-circle">1</a>
+            <p>Steg 1</p>
+        </div>
+        <div class="stepwizard-step">
+            <a href="#step-2" type="button" class="btn btn-default btn-circle" disabled="disabled">2</a>
+            <p>Steg 2</p>
+        </div>
+        <div class="stepwizard-step">
+            <a href="#step-3" type="button" class="btn btn-default btn-circle" disabled="disabled">3</a>
+            <p>Steg 3</p>
+        </div>
+    </div>
+</div>
+<form role="form">
+    <div class="row setup-content" id="step-1">
+        <div class="col-xs-12">
+            <div class="col-md-12">
+                <h3> Steg 1</h3>
+                <div class="form-group">
+                    <label class="control-label">Förnamn</label>
+                    <input  maxlength="100" type="text" required="required" class="form-control" placeholder="Ange förnamn"  />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Efternamn</label>
+                    <input maxlength="100" type="text" required="required" class="form-control" placeholder="Ange efternamn" />
+                </div>
+                <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Nästa</button>
+            </div>
+        </div>
+    </div>
+    <div class="row setup-content" id="step-2">
+        <div class="col-xs-12">
+            <div class="col-md-12">
+                <h3> Steg 2</h3>
+                <div class="form-group">
+                    <label class="control-label">Kurs</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Ange kurs" />
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Betyg</label>
+                    <input maxlength="200" type="text" required="required" class="form-control" placeholder="Ange betyg"  />
+                </div>
+                <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Nästa</button>
+            </div>
+        </div>
+    </div>
+    <div class="row setup-content" id="step-3">
+        <div class="col-xs-12">
+            <div class="col-md-12">
+                <h3> Steg 3</h3>
+                <button class="btn btn-success btn-lg pull-right" type="submit">Klar</button>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+     
+     <br />
+       <br />
 
-
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-<div class="container">
 	<div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title">Se kursplanen för respektive klass genom att klicka på klassen nedan:</h3>
@@ -153,6 +213,7 @@ Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart
 	</div>
 </div>
         
+
     <script src="js/app.js"></script>
     </main>
 
