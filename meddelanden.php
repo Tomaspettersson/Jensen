@@ -21,7 +21,8 @@ include("includes/header.php");
     <main class="jumbotron">
    
         
-<nav class="navbar navbar-default navbar-static-top" id="mailnav" role="navigation">
+
+<nav class="navbar navbar-default navbar-static-top mailnav" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -301,7 +302,7 @@ include("includes/header.php");
   </div>
 </div>
         
-    <script src="app2.js"></script>
+    <script src="js/app.js"></script>
     </main>
 
 <?php

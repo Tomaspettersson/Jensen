@@ -92,3 +92,11 @@ ul.mail-list li span.mail-message-preview{
 .mail-search{
     border-bottom-color:#7FBCC9!important; 
 }
+
+.navbar-static-top {
+    background-color: #fff;
+}
+
+.a {
+    color: #000;
+}
