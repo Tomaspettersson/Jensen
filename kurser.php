@@ -49,7 +49,7 @@ include("includes/header.php");
                     <label class="control-label">Efternamn</label>
                     <input maxlength="100" type="text" required="required" class="form-control" placeholder="Ange efternamn" />
                 </div>
-                <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Nästa</button>
+                <button class="btn btn-success nextBtn btn-lg pull-right" type="button" >Nästa</button>
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@ include("includes/header.php");
                     <label class="control-label">Betyg</label>
                     <input maxlength="200" type="text" required="required" class="form-control" placeholder="Ange betyg"  />
                 </div>
-                <button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Nästa</button>
+                <button class="btn btn-success nextBtn btn-lg pull-right" type="button" >Nästa</button>
             </div>
         </div>
     </div>

@@ -27,6 +27,10 @@ include("includes/header.php");
         </div>
     </form>
 
+    <br />
+    <br />
+<iframe src="https://www.google.com/calendar/embed?height=600&amp;wkst=2&amp;hl=sv&amp;bgcolor=%23ff6600&amp;src=qhp3u22m5fbaptu495kam9cfp8%40group.calendar.google.com&amp;color=%23333333&amp;ctz=Europe%2FStockholm" style=" border:solid 1px #777 " width="1000" height="600" frameborder="2" scrolling="no"></iframe>
+    
     <script src="app.js"></script>
 </main>
 <?php

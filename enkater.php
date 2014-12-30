@@ -62,10 +62,10 @@ include("includes/header.php");
   </head>
   <body>
       <?php if($_SESSION['usertype']==1 || $_SESSION['usertype']==2): ?>
-	<h2>Ladda upp schema</h2>
+	<h2>Ladda upp enkäter här</h2>
 	
 	
-    <form action="minklass.php" method="POST" enctype="multipart/form-data">
+    <form action="enkater.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="upfile" value=""/><br />
         <input class="btn btn-success" type="submit" name="upload" value="Ladda upp"/>
      </form>
