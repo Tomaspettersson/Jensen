@@ -1,38 +1,32 @@
 <?php
-
-
 session_start();
 	if(!isset($_SESSION["pnumber"])){
 		header("Location: login.php");
 	}
-
 ?>
-
 
 <?php
-
-
 $pageTitle = "Meddelanden";
 $section = "meddelanden";
-include("includes/header.php");
-    
+include("includes/header.php"); 
 ?>
+
 <link rel="stylesheet" href="css/stylemail.css">
     <main class="jumbotron">
-   
         
-
+<!-- Following is copyied code to mail example -->        
+   
 <nav class="navbar navbar-default navbar-static-top mailnav" role="navigation">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span>
- <span class="icon-bar"></span>
- <span class="icon-bar"></span>
- <span class="icon-bar"></span>
-
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
         </div>
+        
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="btn-compose pull-left">
@@ -302,11 +296,11 @@ include("includes/header.php");
   </div>
 </div>
         
-    <script src="js/app.js"></script>
-    </main>
+        <!-- STOP Following is copyied code to mail example -->       
+        
+<script src="js/app.js"></script>
+</main>
 
 <?php
-
-include("includes/footer.php");
-    
+include("includes/footer.php");   
 ?>

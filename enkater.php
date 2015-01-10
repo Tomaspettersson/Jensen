@@ -1,28 +1,18 @@
 <?php
-
-
 session_start();
 	if(!isset($_SESSION["pnumber"])){
 		header("Location: login.php");
 	}
-
 ?>
 
-
 <?php
-
-
 $pageTitle = "Enkater";
 $section = "enkater";
 include("includes/header.php");
-    
 ?>
          
-   <main class="jumbotron">
-
-
-
-        
+<main class="jumbotron">
+   
   <?php #uploadFileForm.php
 
 	//checking if the form has been submitted 
@@ -45,15 +35,14 @@ include("includes/header.php");
                 if( move_uploaded_file($fileTempName, $newPathAndName)  ){
                     echo "The file has been successfully uploaded<br /><br />";
 				
-					
                 } else {
                     echo "Could not upload the file";
                 }//end if move_uploaded_file
 				
             }//end if is_uploaded_file
     }//end if isset upload
-
 ?>
+    
 <!DOCTYPE html>
 <html>
   <head>
@@ -64,11 +53,11 @@ include("includes/header.php");
       <?php if($_SESSION['usertype']==1 || $_SESSION['usertype']==2): ?>
 	<h2>Ladda upp enkäter här</h2>
 	
-	
     <form action="enkater.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="upfile" value=""/><br />
         <input class="btn btn-success" type="submit" name="upload" value="Ladda upp"/>
-     </form>
+    </form>
+      
       <?php endif; ?> 
         <br />
     <table class="table table-hover">
@@ -79,7 +68,6 @@ include("includes/header.php");
         
          
         <?php
-
 $dir = 'uploads2/';
 $files = array_diff(scandir($dir), array('..', '.'));
 
@@ -94,10 +82,11 @@ foreach($files as $f){
       echo "</tr>";  
 }
 ?>
+        
       </table>    
         
     <script src="app.js"></script>
-    </main>
+</main>
 
 <?php
 

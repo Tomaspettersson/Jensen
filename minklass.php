@@ -1,28 +1,18 @@
 <?php
-
-
 session_start();
 	if(!isset($_SESSION["pnumber"])){
 		header("Location: login.php");
 	}
-
 ?>
 
-
 <?php
-
-
 $pageTitle = "Min Klass";
 $section = "minklass";
 include("includes/header.php");
-    
 ?>
          
-    <main class="jumbotron">
+<main class="jumbotron">
 
-
-
-        
   <?php #uploadFileForm.php
 
 	//checking if the form has been submitted 
@@ -54,6 +44,8 @@ include("includes/header.php");
     }//end if isset upload
 
 ?>
+    
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -63,7 +55,6 @@ include("includes/header.php");
   <body>
       <?php if($_SESSION['usertype']==1 || $_SESSION['usertype']==2): ?>
 	<h2>Ladda upp schema</h2>
-	
 	
     <form action="minklass.php" method="POST" enctype="multipart/form-data">
         <input type="file" name="upfile" value=""/><br />
@@ -80,25 +71,25 @@ include("includes/header.php");
          
         <?php
 
-$dir = 'uploads/';
-$files = array_diff(scandir($dir), array('..', '.'));
+        $dir = 'uploads/';
+        $files = array_diff(scandir($dir), array('..', '.'));
 
-foreach($files as $f){
-    echo "<tr>";
-    echo "<td>";
-    echo $f;
-    echo "</td>";
-    echo "<td>";
-    echo "<a href=" . $dir . $f . "><input type='button' name='openThis' value='Öppna' class='btn btn-success btn-xs'></button></a>";
-    echo "</td>";
-      echo "</tr>";  
-}
-?>
-      </table>    
+        foreach($files as $f){
+            echo "<tr>";
+            echo "<td>";
+            echo $f;
+            echo "</td>";
+            echo "<td>";
+            echo "<a href=" . $dir . $f . "><input type='button' name='openThis' value='Öppna' class='btn btn-success btn-xs'></button></a>";
+            echo "</td>";
+              echo "</tr>";  
+        }
+        ?>
+    </table>    
         
 
         
-
+<!-- Following is class lists with JS -->
 
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
 <div class="container">
@@ -303,11 +294,11 @@ foreach($files as $f){
 	</div>
 </div>
         
-    <script src="js/app.js"></script>
-    </main>
+<!-- STOP Following is class lists with JS -->
+
+<script src="js/app.js"></script>
+</main>
 
 <?php
-
-include("includes/footer.php");
-    
+include("includes/footer.php");   
 ?>

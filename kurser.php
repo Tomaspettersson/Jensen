@@ -1,25 +1,21 @@
 <?php
-
-
 session_start();
 	if(!isset($_SESSION["pnumber"])){
 		header("Location: login.php");
 	}
-
 ?>
 
-
 <?php
-
-
 $pageTitle = "Kurser";
 $section = "kurser";
 include("includes/header.php");
-    
 ?>
          
- <main class="jumbotron">
-     <div class="container">
+<main class="jumbotron">
+    
+<!-- Following code is 3 step to set courses with JS -->
+    
+<div class="container">
 <div class="stepwizard">
     <div class="stepwizard-row setup-panel">
         <div class="stepwizard-step">
@@ -80,6 +76,10 @@ include("includes/header.php");
 </form>
 </div>
      
+<!-- STOP Following code is 3 step to set courses  -->
+    
+    
+<!--  Following code is clast lists with JS  -->
      <br />
        <br />
 
@@ -101,23 +101,23 @@ include("includes/header.php");
                         <div class="fluid-row">
                             <div class="col-md-6">
                                 <strong>Grundläggande webbapplikationsutveckling 40</strong>
-Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
+                                Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
                             </div>
                             <div class="col-md-6">
                                 <strong>Programmeringskunskap 40</strong>
-JavaScript, PHP och MySQL.
+                                JavaScript, PHP och MySQL.
                             </div>
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>Webblogik 30</strong>
-Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
+                               Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
                             </div>
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>Avancerad webbapplikationsutveckling 60</strong>
-Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
+                                Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
                             </div>
                             <div class="col-md-6">
                                 <strong>Examensarbete 30</strong>
-Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
+                                Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
                             </div>
                            <div class="col-md-6">
                                 <strong>LIA 100</strong>
@@ -139,27 +139,27 @@ Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart
                         <div class="fluid-row">
                             <div class="col-md-6">
                                 <strong>Grundläggande webbapplikationsutveckling 40</strong>
-Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
+                                Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
                             </div>
                             <div class="col-md-6">
                                 <strong>Programmeringskunskap 40</strong>
-JavaScript, PHP och MySQL.
+                                JavaScript, PHP och MySQL.
                             </div>
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>Webblogik 30</strong>
-Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
+                               Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
                                <br />
                             </div>
                             
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>Avancerad webbapplikationsutveckling 60</strong>
-Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
+                                Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
                             </div>
                             <div class="col-md-6">
                                 <strong>Examensarbete 30</strong>
-Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
+                                Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
                             </div>
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>LIA 100</strong>
                             </div>
                         </div>
@@ -182,27 +182,27 @@ Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart
                         <div class="fluid-row">
                             <div class="col-md-6">
                                 <strong>Grundläggande webbapplikationsutveckling 40</strong>
-Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
+                                Frontend och backendtekniker: HTML, CSS, JavaScript, PHP, MySQL, scrum, XP, W3C, standarder, MySQL, ramverk för JavaScript, versionshanteringssystem, kodgranskning samt lämna feedback.
                             </div>
                             <div class="col-md-6">
                                 <strong>Programmeringskunskap 40</strong>
-JavaScript, PHP och MySQL.
+                                JavaScript, PHP och MySQL.
                             </div>
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>Webblogik 30</strong>
-Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
-                               <br />
+                                Datorkommunikation, internets utveckling, grunderna i HTML, CSS, JavaScript, PHP och My SQL, insikt i andra utvecklingstekniker, gruppdynamik, grunderna i agila metoder samt sociala medier.
+                                <br />
                             </div>
                             
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>Avancerad webbapplikationsutveckling 60</strong>
-Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
+                                Frontend och backend, mashups, säkerhet, optimering, tillgänglighet, användbarhet samt mobila webbappar.
                             </div>
                             <div class="col-md-6">
                                 <strong>Examensarbete 30</strong>
-Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
+                                Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart på utbildningens alla kursmål.
                             </div>
-                           <div class="col-md-6">
+                            <div class="col-md-6">
                                 <strong>LIA 100</strong>
                             </div>
                         </div>
@@ -213,12 +213,11 @@ Genomförande av ett webbutvecklingsprojekt som ska innehålla/vara applicerbart
 	</div>
 </div>
         
+<!-- STOP Following code is clast lists with JS  -->
 
-    <script src="js/app.js"></script>
-    </main>
+<script src="js/app.js"></script>
+</main>
 
 <?php
-
-include("includes/footer.php");
-    
+include("includes/footer.php"); 
 ?>
