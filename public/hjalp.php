@@ -1,8 +1,7 @@
 <?php
-session_start();
-	if(!isset($_SESSION["pnumber"])){
-		header("Location: login.php");
-	}
+require_once("../includes/functions.php");	
+confirm_logged_in();
+
 ?>
 
 <?php

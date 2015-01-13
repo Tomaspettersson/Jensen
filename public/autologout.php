@@ -1,6 +1,6 @@
 <?php
-  session_start(); 
-  include("layout/header.php");
+require_once("../includes/functions.php");
+include("layout/header.php");
 ?>
 
     <h1>Auto logout</h1>

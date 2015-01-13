@@ -1,10 +1,8 @@
 <?php
 
 
-session_start();
-	if(!isset($_SESSION["pnumber"])){
-		header("Location: login.php");
-	}
+require_once("../includes/functions.php");	
+confirm_logged_in();
 
 ?>
 
@@ -36,6 +34,7 @@ if(isset($_POST["submit"])){
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $usertype = $_POST['usertype'];
+    $edu_id = $_POST['edu_id'];
     
 
 
@@ -47,8 +46,8 @@ $hashedPass = password_hash($password, PASSWORD_BCRYPT);
 require_once("../includes/db_connect.php");
 
 
-$query = "INSERT INTO users (pnumber, hashed_password, fname, lname, usertype)";
-$query .= "VALUES (:pnumber, :password, :fname, :lname, :usertype) ";
+$query = "INSERT INTO users (pnumber, hashed_password, fname, lname, usertype, edu_id)";
+$query .= "VALUES (:pnumber, :password, :fname, :lname, :usertype, :edu_id) ";
 
 
 
@@ -60,13 +59,12 @@ $result = $ps->execute(
 	'password'=>$hashedPass,
     'fname'=>$fname,
     'lname'=>$lname,
-    'usertype'=>$usertype
+    'usertype'=>$usertype,
+    'edu_id'=>$edu_id
 )); //Erhåller värdet true eller false. arrayen i execute är tilldelade värden för placeholders i SQL -> :username AND :password
 
 
-if($result){
-	header("Location: registrera.php");
-} else{
+if(!$result){
 	echo "Signup failed!";
 }
 
@@ -121,6 +119,16 @@ else{
 				  <option value="1">Admin</option>
 				  <option value="2">Teacher</option>
 				  <option value="3">Student</option>
+				</select>
+                </td>
+            </tr>
+        <tr class="active"><td>Class: </td>
+            <td>
+        <select name="edu_id" >
+				  <option value="">Choose class</option>
+				  <option value="WUK14">WUK14</option>
+				  <option value="COBOL14">COBOL14</option>
+				  
 				</select>
                 </td>
             </tr>

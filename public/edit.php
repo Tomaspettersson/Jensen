@@ -1,8 +1,6 @@
 <?php
-session_start();
-	if(!isset($_SESSION["pnumber"])){
-		header("Location: login.php");
-	}
+require_once("../includes/functions.php");
+confirm_logged_in();
 
 ?>
 <?php
@@ -26,7 +24,7 @@ $end_time=$_POST['end_time'];
 $query3=mysql_query("update room_booking set room_name='$room_name', start_time='$start_time', end_time='$end_time' where id='$id'");
 if($query3)
 {
-header('location:kalender.php');
+redirect_to("kalender.php");
 }
 }
 $query1=mysql_query("select * from room_booking where id='$id'");
