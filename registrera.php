@@ -97,24 +97,24 @@ else{
 	
     
     <form action="registrera.php" method="POST">
-	<table>
-		<tr>
+	<table class="table">
+		<tr class="active">
 			<td>Username: </td>
 			<td><input type="text" name="pnumber" /></td>
 		</tr>
-		<tr>
+		<tr class="active">
 			<td>Password: </td>
 			<td><input type="password" name="password" /></td>
 		</tr>
-        <tr>
+        <tr class="active">
 			<td>First name: </td>
 			<td><input type="text" name="fname" /></td>
 		</tr>
-        <tr>
+        <tr class="active">
 			<td>Last name: </td>
 			<td><input type="text" name="lname" /></td>
 		</tr>
-       <tr><td>Usertype: </td>
+       <tr class="active"><td>Usertype: </td>
             <td>
         <select name="usertype" >
 				  <option value="">Choose usertype</option>
