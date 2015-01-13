@@ -8,7 +8,7 @@ session_start();
 <?php
 $pageTitle = "Enkater";
 $section = "enkater";
-include("includes/header.php");
+include("layout/header.php");
 ?>
          
 <main class="jumbotron">
@@ -90,6 +90,6 @@ foreach($files as $f){
 
 <?php
 
-include("includes/footer.php");
+include("layout/footer.php");
     
 ?>

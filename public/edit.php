@@ -8,7 +8,7 @@ session_start();
 <?php
 $pageTitle = "Edit";
 $section = "edit";
-include("includes/header.php");  
+include("layout/header.php");
 ?>
 
 <html>
@@ -54,5 +54,5 @@ End time:<input required type="date" name="end_time" value="<?php echo $query2['
 </html>
 
 <?php
-include("includes/footer.php"); 
+include("layout/footer.php"); 
 ?>

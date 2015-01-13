@@ -8,7 +8,7 @@ session_start();
 <?php
 $pageTitle = "Nyheter";
 $section = "nyheter";
-include("includes/header.php");
+include("layout/header.php");
 ?>
 
 <main class="jumbotron">
@@ -25,5 +25,5 @@ include("includes/header.php");
 </main>
 
 <?php
-include("includes/footer.php"); 
+include("layout/footer.php"); 
 ?>

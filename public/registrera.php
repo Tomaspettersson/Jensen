@@ -14,7 +14,7 @@ session_start();
 
 $pageTitle = "Registrera";
 $section = "registrera";
-include("includes/header.php");
+include("layout/header.php");
     
 ?>
 
@@ -44,7 +44,7 @@ try{
 
 $hashedPass = password_hash($password, PASSWORD_BCRYPT);
 
-require_once("db_connect.php");
+require_once("../includes/db_connect.php");
 
 
 $query = "INSERT INTO users (pnumber, hashed_password, fname, lname, usertype)";
@@ -144,7 +144,7 @@ else{
 
 <?php
 
-include("includes/footer.php");
+include("layout/footer.php");
     
 ?>
 

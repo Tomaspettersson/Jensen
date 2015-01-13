@@ -8,7 +8,7 @@ session_start();
 <?php
 $pageTitle = "Meddelanden";
 $section = "meddelanden";
-include("includes/header.php"); 
+include("layout/header.php"); 
 ?>
 
 <link rel="stylesheet" href="css/stylemail.css">
@@ -302,5 +302,5 @@ include("includes/header.php");
 </main>
 
 <?php
-include("includes/footer.php");   
+include("layout/footer.php");  
 ?>

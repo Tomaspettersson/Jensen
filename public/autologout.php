@@ -1,6 +1,6 @@
 <?php
   session_start(); 
-  include("includes/header.php");
+  include("layout/header.php");
 ?>
 
     <h1>Auto logout</h1>
@@ -17,5 +17,5 @@
 
 	?>
 <?php 
-	include("includes/footer.php");
+	include("layout/footer.php");
 ?>

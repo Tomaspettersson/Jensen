@@ -8,7 +8,7 @@ session_start();
 <?php
 $pageTitle = "Kalender";
 $section = "kalender";
-include("includes/header.php");  
+include("layout/header.php");
 ?>
          
 <main class="jumbotron">
@@ -91,5 +91,5 @@ echo "<td><a href='delete.php?id=".$query2['id']."'><button class='btn-danger'>D
 </main>
 
 <?php
-include("includes/footer.php"); 
+include("layout/footer.php");
 ?>

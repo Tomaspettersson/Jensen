@@ -17,7 +17,7 @@ session_start();
  <nav class="navbar navbar-inverse navbarlogin">
     <div class="container">
         <a class="navbar-brand" href="#">Jensen Online</a>
-        <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/hjalputloggad.php">Hjälp</a>
+        <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/public/hjalputloggad.php">Hjälp</a>
     </div>
 </nav>
     
@@ -30,7 +30,7 @@ if(isset($_POST["submit"])){
 
 try{
 
-require_once("db_connect.php");
+require_once("../includes/db_connect.php");
 
 $query = "SELECT * ";
 $query .= "FROM users ";

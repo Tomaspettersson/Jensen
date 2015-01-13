@@ -38,7 +38,7 @@ $_SESSION['time'] = time();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://127.0.0.1/git/Jensen">Jensen Online</a>
+          <a class="navbar-brand" href="http://127.0.0.1/git/Jensen/public">Jensen Online</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -79,15 +79,15 @@ if($_SESSION['usertype']==1):
     <div class="container">
         <header class="page-header">
             <div class="btn-group btn-group-justified">
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php" >Nyheter</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/registrera.php">Registrera</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public">Hem</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/nyheter.php" >Nyheter</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/meddelanden.php">Meddelanden</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/minklass.php">Min Klass</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/kurser.php">Kurser</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/kalender.php">Kalender</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/studieresultat.php">Studieresultat</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/enkater.php">Enkäter</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/registrera.php">Registrera</a>
             </div>
     </header>
     
@@ -96,14 +96,14 @@ if($_SESSION['usertype']==1):
     <div class="container">
         <header class="page-header">
             <div class="btn-group btn-group-justified">
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public">Hem</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/minklass.php">Min Klass</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/kurser.php">Kurser</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/nyheter.php">Nyheter</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/kalender.php">Kalender</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/meddelanden.php">Meddelanden</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/studieresultat.php">Studieresultat</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/enkater.php">Enkäter</a>
             </div>
         </header>
      
@@ -112,14 +112,14 @@ if($_SESSION['usertype']==1):
      <div class="container">
         <header class="page-header">
             <div class="btn-group btn-group-justified">
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/">Hem</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/minklass.php">Min Klass</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kurser.php">Kurser</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/nyheter.php">Nyheter</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/kalender.php">Kalender</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/meddelanden.php">Meddelanden</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/studieresultat.php">Studieresultat</a>
-                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/enkater.php">Enkäter</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public">Hem</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/minklass.php">Min Klass</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/kurser.php">Kurser</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/nyheter.php">Nyheter</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/kalender.php">Kalender</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/meddelanden.php">Meddelanden</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/studieresultat.php">Studieresultat</a>
+                <a class="btn btn-primary" type="button" href="http://127.0.0.1/git/Jensen/public/enkater.php">Enkäter</a>
             </div>
         </header>
     

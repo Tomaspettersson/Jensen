@@ -11,7 +11,7 @@
     <nav class="navbar navbar-inverse navbarlogin">
         <div class="container">
            <a class="navbar-brand" href="#">Jensen Online</a>
-           <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/login.php">Tillbaka</a>
+           <a id="hjalp" class="navbar-brand" href="http://127.0.0.1/git/Jensen/public/login.php">Tillbaka</a>
         </div>
     </nav>
 
