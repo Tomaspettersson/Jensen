@@ -18,7 +18,7 @@ include("layout/header.php");
     <div class="jumbotron">
         <h1>LÅNGSIKTIG ÄGARE MED FOKUS PÅ KVALITET</h1>
         <p class="lead">Under de senaste 18 åren har jag lagt ner min själ i att uppnå mitt mål - att skapa Sveriges bästa utbildningsföretag. Få saker slår känslan man får när man uppnår sina mål. Just den vinnande känslan vill            jag även att du ska känna, både under din tid på JENSEN och i framtiden.</p>
-        <p><a class="btn btn-lg btn-success" href="http://127.0.0.1/git/Jensen/nyheter.php" role="button">Läs mer</a></p>
+        <p><a class="btn btn-lg btn-success" href="http://127.0.0.1/git/Jensen/public/nyheter.php" role="button">Läs mer</a></p>
     </div>
 
     <div class="row marketing startSubs">
